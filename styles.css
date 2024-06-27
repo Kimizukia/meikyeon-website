@@ -1,0 +1,49 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(13, 0, 26);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main-title {
+    color: rgb(231, 207, 255);
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 20px;
+}
+
+nav {
+    text-align: right;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    margin-right: 50px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul li a {
+    color: rgb(231, 207, 255);
+    text-decoration: none;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    color: lightblue; /* Change color on hover */
+}
+
+body {
+    background-color: rgb(17, 0, 34);
+}

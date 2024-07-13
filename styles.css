@@ -7,18 +7,26 @@ header {
     background-color: rgb(13, 0, 26);
     padding: 10px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    max-height: 100px;
+    overflow: hidden;
+}
+
+header img {
+    margin-left: 30px;
+    width: 80px;
+    height: 80px;
 }
 
 #main-title {
     color: rgb(231, 207, 255);
     font-family: 'Courier New', Courier, monospace;
     padding-left: 20px;
+    align-items: left;
 }
 
 nav {
-    text-align: right;
+    margin-left: 100px;
 }
 
 nav ul {
@@ -30,7 +38,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-left: 10px;
+    margin-left: 30px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -46,4 +54,49 @@ nav ul li a:focus {
 
 body {
     background-color: rgb(17, 0, 34);
+}
+
+.home {
+    margin-top: 30px;
+    margin-left: 50px;
+    color:rgb(231, 207, 255);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.socials {
+    margin-top: 100px;
+    margin-left: 50px;
+    color:rgb(231, 207, 255);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.socials img {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.social-items {
+    display: flex;
+    align-items: center;
+    color: inherit;
+    list-style-type: none;
+}
+
+.social-items li {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.social-items a {
+    text-decoration: none;
+    color: rgb(231, 207, 255);
+}
+
+.contact {
+    margin-top: 100px;
+    margin-left: 50px;
+    color:rgb(231, 207, 255);
+    font-family: 'Courier New', Courier, monospace;
 }
